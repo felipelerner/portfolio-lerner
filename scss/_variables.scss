@@ -1,0 +1,38 @@
+/*Screen sizes*/
+$screen_small: "576px";
+$screen_medium: "768px";
+$screen_large: "992px";
+$screen_xlarge: "1200px";
+
+$mobile: "only screen and (max-width: #{$screen_small - 1})";
+$mobile_landscape: "only screen and (min-width: #{$screen_small}) and (orientation : landscape)";
+
+$tablet: "only screen and (min-width: #{$screen_medium})";
+$tablet_portrait: "only screen and (min-width: #{$screen_medium}) and (orientation : portrait)";
+$tablet_landscape: "only screen and (min-width: #{$screen_medium}) and (orientation : landscape)";
+$tablet_max: "only screen and (max-width: #{$screen_large - 1})";
+$normal: "only screen and (min-width: #{$screen_large})";
+$desktop: "only screen and (min-width: #{$screen_xlarge})";
+
+/* Fonts */ 
+$main-font: 'Poppins', sans-serif;
+
+
+/* Font sizes */
+$font-size-base: 16px !default;
+$font-size-gigant: 5rem;
+$font-size-sub: 2.375rem;
+
+/* Colors */
+$background_image: url(../img/Portfolio-12.png);
+$black: #0e0d0d;
+$gray: #CCC;
+$white: #FFFFFF;
+$main_black: #161616;
+$main_green_strong: #5CB087;
+$main_green_soft: #64BC99;
+$main_green_softer:  #b1f8d5;
+$main_pink: #EAABCE;
+$icon_color_home: #0d0e0e;
+$strong_grey: #C4C3C3;
+$soft_grey: #F3EEEB;

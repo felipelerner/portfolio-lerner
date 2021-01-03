@@ -289,6 +289,16 @@
             width: auto;
             height: 7rem;
             display: block;
+            filter: grayscale(50%);
+	        -webkit-transition: .1s ease-in-out;
+            transition: .1s ease-in-out;
+            &:hover{
+            filter: grayscale(0%);            
+            }
+        }
+        .main_work_preview-image-bottom{
+            height: 5px;
+            width: 238.5px;
             background-color: $main_pink;
         }
         h2{

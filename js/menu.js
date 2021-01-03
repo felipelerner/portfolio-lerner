@@ -11,10 +11,8 @@
         var mq = window.matchMedia( "(max-width: 570px)" );
 
         if (mq.matches) {
-            $('.menu').addClass('fixed');
             $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
             $('.nav_menu').addClass('d-none');
-            $('.menu').addClass('d-flex');
         }
         else {
             if ($(window).scrollTop() >= altura_del_home - 80){

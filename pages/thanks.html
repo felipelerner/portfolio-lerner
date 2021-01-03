@@ -5,31 +5,36 @@
     <meta charset="UTF-8">
     <title>Felipe Lerner - Portfolio | Thank </title>
     <script src="../js/jquery.js"></script>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/icoon/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
-<body class="strong_grey">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="my_work.html">my work</a></li>
-                <li><a href="skills.html">skills</a></li>
-                <li><a href="about_me.html">about me</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </nav>
-    </header>   
-
-    <main>
-            <h2>Thank you!</h2>
-            <p><strong>I´ll text you soon.</strong></p>
+<body class="strong_grey thanks">
+    <main class="container d-flex-column">
+            <h2 class="d-block text-center">Thank you!</h2>
+            <p class="text-center">I´ll text you soon.</p>
+            <a href="https://felipelerner.github.io/portfolio-lerner/"><p class="text-center back_to_site">back to the site</p></a>
     </main>
 
     <footer>
-        <h2>Lorem ipsum</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, veritatis!</p>
-        <!-- Acá tengo que sumar los íconos-->
+        <div class="container-fluid align-items-center">
+            <div class="row">
+                <div class="col-6 float-left d-inline-block text-left">
+            <h2 class="font-weight-bolder">Felipe Lerner</h2>
+            <br>
+            <p class="text-wrap d-none d-md-inline">Designed and developed by Felipe Lerner in 2020</p>
+                </div>
+            <div class="footer_icon_container col-6 justify-content-end">
+                    <a class="footer_icon" href="https://www.linkedin.com/in/felipelerner/" target="blank"><div><span class="icon-linkedin"></div></span></a>
+                    <a class="footer_icon" href="https://github.com/felipelerner" target="blank"><div><span class="icon-github"></div></span></a>    
+                    <a class="footer_icon" href="mailto:felilerner@gmail.com" target="blank"><div><span class="icon-envelope"></div></span></a>
+            </div>
+        </div>
     </footer>
+</div>
+<!--js-->
+    <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

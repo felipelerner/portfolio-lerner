@@ -184,15 +184,15 @@
     <section id="contact" class="contact strong_grey container-fluid d-flex justify-content-center align-items-center">
         <div class="row">
             <div class="contact_form wow d-flex flex-wrap col-12 justify-content-center order-2 order-lg-1 col-lg-6 justify-content-end">
-                <form name="contact_form_main" action="./pages/thanks.html" target="blank" method="post">
+                <form name="contact_form_main" action="./pages/thanks.html" method="post">
                     <label for="name_input"></label>
-                    <input class="contact_form_style" type="text" name="my_text_input_name" id="name_input"value="" placeholder="name">
+                    <input class="contact_form_style" type="text" name="my_text_input_name" id="name_input"value="" placeholder="name" required>
                     <br>
                     <label for="mail_input"></label>
-                    <input class="contact_form_style" type="email" name="my_text_input_mail" id="mail_input" value="" placeholder="e-mail">
+                    <input class="contact_form_style" type="email" name="my_text_input_mail" id="mail_input" value="" placeholder="e-mail" required>
                     <br>
                     <label for="textarea_input"></label>
-                    <textarea class="contact_form_style contact_form_text_area" name="textarea" id="textarea_input" rows="8" cols="22" placeholder="tell me what you need"></textarea>
+                    <textarea class="contact_form_style contact_form_text_area" name="textarea" id="textarea_input" rows="8" cols="22" placeholder="tell me what you need" required></textarea>
                     <br>
                     <input class="contact_form_send_button" type="submit"value="send">
                 </form>

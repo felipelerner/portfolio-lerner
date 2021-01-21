@@ -12,7 +12,7 @@
 
         if (mq.matches) {
             $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
-            $('.nav_menu').addClass('d-none');
+            $('.nav_menu').addClass('d-none');  
         }
         else {
             if ($(window).scrollTop() >= altura_del_home - 80){
